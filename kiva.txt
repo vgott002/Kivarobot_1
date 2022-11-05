@@ -1,0 +1,25 @@
+public class Main {
+  static void liftingweights() {
+    System.out.println("It is used to lift packages from source to destination in warehouse");
+  }
+static void motor(){
+System.out.println(" It consists of wheels and this wheels moves forward, backward, left and right);
+}
+static void Cameraunit(){
+System.out.println(" It consists of dual camera it is used to scan barcodes and look at other pods);
+}
+static void battery(){
+System.out.println(" It consists has battery in which it can charge by its own,
+ if the charging is low bots makes themselves offline and return home to nearby charging station);
+}
+static void logicboard(){
+System.out.println(". It consists of FPGA, Current sensor, 4 pin connectors, Brush less motor, Image processing board ADI ADSP-BF548, Router, Antenna);
+}
+  public static void main(String[] args) {
+    liftingweights();
+motor();
+cameraunit();
+battery();
+logicboard();
+  }
+}
