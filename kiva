@@ -1,0 +1,36 @@
+public class Main {
+  static void Move() {
+    System.out.println("It is used to the Motor starts, and moves as per instruction in barcodes; Do:activity kiva scans the barcodes and detects the obstacles");
+  }
+static void Poddetection(){
+System.out.println("Entry mode is to scan the barcodes;Do: Adjust the positions and kiva sensors will detect the obstacles LED light turns ON");
+}
+static void Obstacledetected(){
+System.out.println(" In Entry state if any obstacle is in kiva path it stops; Do:Kiva goes into standby mode;Exit: No obstacles then Kiva move");
+}
+static void Liftingmechanism (){
+System.out.println("In the entry state Lift LED light turn ON, the motors are active;Do:Lift and adjust the Pod; Exit: Motors are active");
+}
+static void Pickingstation(){
+System.out.println("In entry Move light LED turn; Do:Scanning of Barcodes; Exit:state go near to the picking end station");
+}
+static void Pickingpod(){
+System.out.println("Entry State Move the picker; Do: state pick the product and scan barcodes; Exit:state turn on move lights and move");
+}
+static void Droppingatdestination(){
+System.out.println("Entry State Kiva moves forward and travel near to drop point; Do:State drop the pod and set position; Exit:state check the battery level");
+}
+static void Recharge(){
+System.out.println("In entry state kiva set to charging dock, turn on charging light; Do: charging; Exit:, state turn off the LED light ready for the next pick up");
+}
+ public static void main(String[] args) {
+Move();
+Poddetection();
+Obstacledetected();
+Liftingmechanism();
+Pickingstation();
+Pickingpod();
+Droppingatdestination();
+Recharge();
+  }
+}
